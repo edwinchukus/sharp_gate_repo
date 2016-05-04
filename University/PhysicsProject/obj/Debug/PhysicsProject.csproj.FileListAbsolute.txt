@@ -1,0 +1,12 @@
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\PhysicsProject\bin\Debug\PhysicsProject.exe
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\PhysicsProject\bin\Debug\PhysicsProject.pdb
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\PhysicsProject\obj\Debug\PhysicsProject.exe
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\PhysicsProject\obj\Debug\PhysicsProject.pdb
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\PhysicsProject\obj\Debug\PhysicsProject.csprojResolveAssemblyReference.cache
+C:\TrainCentre\TutorialCodes\CsharpCodes\BatchA2016\Projects\University\PhysicsProject\bin\Debug\PhysicsProject.exe
+C:\TrainCentre\TutorialCodes\CsharpCodes\BatchA2016\Projects\University\PhysicsProject\bin\Debug\PhysicsProject.pdb
+C:\TrainCentre\TutorialCodes\CsharpCodes\BatchA2016\Projects\University\PhysicsProject\obj\Debug\PhysicsProject.csprojResolveAssemblyReference.cache
+C:\TrainCentre\TutorialCodes\CsharpCodes\BatchA2016\Projects\University\PhysicsProject\obj\Debug\PhysicsProject.exe
+C:\TrainCentre\TutorialCodes\CsharpCodes\BatchA2016\Projects\University\PhysicsProject\obj\Debug\PhysicsProject.pdb
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\c_sharp_space_lab_batch_a_16_repo\University\PhysicsProject\obj\Debug\PhysicsProject.exe
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\c_sharp_space_lab_batch_a_16_repo\University\PhysicsProject\obj\Debug\PhysicsProject.pdb
