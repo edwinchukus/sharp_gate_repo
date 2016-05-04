@@ -15,3 +15,9 @@ C:\C# AUTOMATION\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApp
 C:\C# AUTOMATION\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.exe
 C:\C# AUTOMATION\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.pdb
 C:\C# AUTOMATION\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.csprojResolveAssemblyReference.cache
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.exe.config
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.exe
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.pdb
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.exe
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.pdb
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.csprojResolveAssemblyReference.cache

@@ -11,9 +11,6 @@ namespace CSharpBankingApplication.BankLogin
 {
     public class BankAppLogin
     {
-        //i will introduce  a constant at class level
-        //private const string userName = "casi";        
-        private const int casiPIN = 1234;
         public void AppLogin()
         {
            //welcome the user to the app & prompt them to enter username
@@ -34,14 +31,14 @@ namespace CSharpBankingApplication.BankLogin
                else
                {
                    Console.WriteLine("the cctv is now saving your face info");
-               }return;
+               }
            }
             else if (userInput.Equals("casi"))
            {
                 Console.WriteLine("Welcome casi . please enter your Pin");
                
                int cPIN = int.Parse(Console.ReadLine());
-
+               int casiPIN = 1234;
                if (cPIN == casiPIN)
                {
                    Console.WriteLine("welcome to your account");
@@ -49,27 +46,24 @@ namespace CSharpBankingApplication.BankLogin
                else
                {
                    Console.WriteLine("invalid PIN entered trying again");
-               }
-               return;
+                }
+               
            }
-            
            else if (userInput.Equals("sam"))
            {
                 Console.WriteLine("Sam welcome to your account");
                 Console.WriteLine("Please enter your pin");
                 int sPin = 1981;
                 int Pin =int.Parse(Console.ReadLine());
-                if ( sPin == Pin)
+                if (sPin == Pin)
                 {
                     Console.WriteLine("thank you, account bal is £89b");
                 }
                 else
                 {
                     Console.WriteLine("wrong pin, goodbye");
-                    return;
                 }
           }
-           
         }
 
         public void register()
