@@ -10,14 +10,16 @@ namespace CSharpBankingApplication
 {
     class Program
     {
-        static void Main(string[] args)
+        // Code to take PIN
+        public static void Main(string[] args)
         {
             BankAppLogin appLogin = new BankAppLogin();
-            appLogin.AppLogin();
+            //Greet And Welcome Customer
+            appLogin.GreetAndWelcomeCustomer();
+            Decision decision = new Decision();
+            decision.MakeDecision();
             Console.ReadKey();
-       
-            BankAppLogin registerNewUser = new BankAppLogin();
-            registerNewUser.register();
+
         }
     }
 }
