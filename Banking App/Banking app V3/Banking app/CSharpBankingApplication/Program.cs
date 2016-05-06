@@ -19,7 +19,6 @@ namespace CSharpBankingApplication
             Decision decision = new Decision();
             decision.MakeDecision();
             Console.ReadKey();
-
         }
     }
 }
