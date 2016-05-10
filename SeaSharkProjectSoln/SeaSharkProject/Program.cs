@@ -14,7 +14,7 @@ namespace SeaSharkProject
             string number1  = Console.ReadLine();
             double num1 = Double.Parse(number1);
 
-            Console.WriteLine("please select what you would llike to do?");
+            Console.WriteLine("please select what you would like to do?");
             Console.WriteLine("please select +, -,/");
             string operatorInCal = Console.ReadLine();
            
