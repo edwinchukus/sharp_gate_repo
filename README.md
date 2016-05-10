@@ -23,6 +23,7 @@ any ideas?
 
 # Well, good.
 
+# check it out "
 #Finally, Andre got here. Class captain just wanted to make sure everyone was
 #here before turning up :-) 
 A round of applause for him
