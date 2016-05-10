@@ -1,3 +1,6 @@
+
+# At last i made it.
+
 # sharp_gate_repo
 Team first Git Remote Repository on the Csharp Project
 
