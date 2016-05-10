@@ -24,3 +24,6 @@ C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\Banking App\B
 E:\C#_Automation_Testing\RepoMaster\Banking App\Banking app V3\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.exe.config
 E:\C#_Automation_Testing\RepoMaster\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.exe
 E:\C#_Automation_Testing\RepoMaster\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.pdb
+C:\C# AUTOMATION\Sam's Git\Banking App\Banking app V3\Banking app\CSharpBankingApplication\bin\Debug\CSharpBankingApplication.exe.config
+C:\C# AUTOMATION\Sam's Git\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.exe
+C:\C# AUTOMATION\Sam's Git\Banking App\Banking app V3\Banking app\CSharpBankingApplication\obj\Debug\CSharpBankingApplication.pdb
