@@ -24,5 +24,7 @@ any ideas?
 # Well, good.
 
 #Finally, Andre got here. Class captain just wanted to make sure everyone was
-here before turning up :-) 
+#here before turning up :-) 
 A round of applause for him
+
+deleted the Personal Project solution as some files are missing/corrupted
