@@ -1,2 +1,0 @@
-C:\TrainCentre\TrainCentreRepo\CSharp\Batch16A\c_sharp_space_lab_batch_a_16_repo\PersonalProject\Test\bin\Debug\Test.exe.config
-C:\TrainCentre\TrainCentreRepo\CSharp\Batch16A\c_sharp_space_lab_batch_a_16_repo\PersonalProject\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache

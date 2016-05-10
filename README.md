@@ -1,3 +1,6 @@
+
+# At last i made it.
+
 # sharp_gate_repo
 Team first Git Remote Repository on the Csharp Project
 
@@ -22,3 +25,10 @@ any ideas?
 # morning pratice at work...
 
 # Well, good.
+
+# check it out "
+#Finally, Andre got here. Class captain just wanted to make sure everyone was
+#here before turning up :-) 
+A round of applause for him
+
+deleted the Personal Project solution as some files are missing/corrupted
