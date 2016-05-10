@@ -22,3 +22,7 @@ any ideas?
 # morning pratice at work...
 
 # Well, good.
+
+#Finally, Andre got here. Class captain just wanted to make sure everyone was
+here before turning up :-) 
+A round of applause for him
