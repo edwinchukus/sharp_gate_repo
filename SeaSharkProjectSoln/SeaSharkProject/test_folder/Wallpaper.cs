@@ -5,7 +5,13 @@ using System.Text;
 
 namespace SeaSharkProject.test_folder
 {
-    class Wallpaper
+    public class Wallpaper
     {
+
+
+        public void GeetMeCookies()
+        {
+            Console.WriteLine("I am need a cookie to eat!");
+        }
     }
 }
