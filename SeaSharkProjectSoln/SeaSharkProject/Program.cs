@@ -3,45 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using SeaSharkProject.calf;
+using SeaSharkProject.facebook;
 
 namespace SeaSharkProject
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your first number?");
-            string number1  = Console.ReadLine();
-            double num1 = Double.Parse(number1);
 
-            Console.WriteLine("please select what you would like to do?");
-            Console.WriteLine("please select +, -,/");
-            string operatorInCal = Console.ReadLine();
-           
+            Elephant elephant = new Elephant("Edwin", "Loveth", "Anney", "Hiltler");
 
-            Console.WriteLine("Please enter your second number?");
-            string number2 = Console.ReadLine();
-            double num2 = Double.Parse(number2);
+            string name = elephant.GetFirstStudentName();
+            Console.WriteLine(name);
 
-            LogicOperation casio = new LogicOperation(num1, num2); //Construction or Instantiation of a class
-
-   
-
-            if (operatorInCal.Equals("+"))
-            {
-                double an = casio.Add();
-                Console.WriteLine(an);
-            }else if (operatorInCal.Equals("/"))
-            {
-                double an = casio.Divide();
-                Console.WriteLine(an);
-            }
-            else
-            {
-                throw new Exception("There is no such operation in this software!");
-            }
-
-
+            Elephant pigon = new Elephant("Avan Rolf", "Jeff Morgan", "Roy Fielding", "David Cameron");
+            string name1 = pigon.GetFirstStudentName();
+            Console.WriteLine(name1);
         }
     }
 }
