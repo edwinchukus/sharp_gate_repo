@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BankLogin\BankAppLogin.cs" />
     <Compile Include="BankLogin\Decision.cs" />
+    <Compile Include="Register\Registration.cs" />
     <Compile Include="BankLogin\UserAccount.cs" />
     <Compile Include="BankLogin\UserLogin.cs" />
     <Compile Include="Program.cs" />
