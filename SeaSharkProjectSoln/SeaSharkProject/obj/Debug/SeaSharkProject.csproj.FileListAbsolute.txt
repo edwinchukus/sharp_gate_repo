@@ -1,0 +1,5 @@
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaSharkProject.exe
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaSharkProject.pdb
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.csprojResolveAssemblyReference.cache
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.exe
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.pdb
