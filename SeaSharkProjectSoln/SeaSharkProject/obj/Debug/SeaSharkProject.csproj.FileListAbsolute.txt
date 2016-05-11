@@ -1,0 +1,5 @@
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaSharkProject.exe
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaSharkProject.pdb
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.csprojResolveAssemblyReference.cache
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.exe
+C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.pdb
