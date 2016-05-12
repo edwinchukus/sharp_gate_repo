@@ -22,6 +22,8 @@ namespace CSharpBankingApplication
             //Registration for new customer
             Registration newUser = new Registration();
             newUser.Rgister();
+            Registration userDetails = new Registration();
+            userDetails.EnterDetails();
         }
     }
 }
