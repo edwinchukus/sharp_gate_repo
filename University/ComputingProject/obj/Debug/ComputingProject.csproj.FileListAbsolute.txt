@@ -1,0 +1,4 @@
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\ComputingProject\bin\Debug\ComputingProject.exe
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\ComputingProject\bin\Debug\ComputingProject.pdb
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\ComputingProject\obj\Debug\ComputingProject.exe
+C:\Users\Edwin\Documents\Visual Studio 2015\Projects\practices\University\ComputingProject\obj\Debug\ComputingProject.pdb
