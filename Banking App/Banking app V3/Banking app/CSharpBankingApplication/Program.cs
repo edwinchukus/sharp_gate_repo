@@ -19,6 +19,9 @@ namespace CSharpBankingApplication
             Decision decision = new Decision();
             decision.MakeDecision();
             Console.ReadKey();
+            //Registration for new customer
+            Registration newUser = new Registration();
+            newUser.Rgister();
         }
     }
 }
