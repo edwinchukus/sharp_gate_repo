@@ -22,3 +22,5 @@ any ideas?
 # morning pratice at work...
 
 # Well, good.
+
+#12-05-2016: Added the Personal Project files back
