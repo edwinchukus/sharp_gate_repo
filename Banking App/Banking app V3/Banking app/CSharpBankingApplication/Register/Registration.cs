@@ -11,21 +11,22 @@ namespace CSharpBankingApplication.BankLogin
 
         private string FirstName;
         private string LastName;
+        
         public void Rgister()
         {
             BankAppLogin greetings = new BankAppLogin();
             greetings.GreetAndWelcomeCustomer();
         }
 
-         public void EnterDetails()
-         {
+        public void EnterDetails()
+        {
             // registration form
             Console.WriteLine("Please enter your first and last name and press enter");
              if ((FirstName.Equals(Console.ReadLine())) && (LastName.Equals(Console.ReadLine())))
              {
-                 Console.WriteLine("please please read terms and conditions");
+                 Console.WriteLine(" please read terms and conditions");
              }return;
 
-         }
+        }
     }
 }
