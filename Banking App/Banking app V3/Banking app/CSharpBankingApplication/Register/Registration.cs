@@ -24,7 +24,7 @@ namespace CSharpBankingApplication.BankLogin
             Console.WriteLine("Please enter your first and last name and press enter");
              if ((FirstName.Equals(Console.ReadLine())) && (LastName.Equals(Console.ReadLine())))
              {
-                 Console.WriteLine("please please read terms and conditions");
+                 Console.WriteLine(" please read terms and conditions");
              }return;
 
         }
