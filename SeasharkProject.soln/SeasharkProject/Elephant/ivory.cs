@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace SeasharkProject.Elephant
 {
-    class ivory
-    {
-    }
+  public  class ivory
+  {
+      private double x ;
+      public ivory(double x, double y)
+      {
+          this.x = x;
+      }
+      public void Add()
+       {
+     
+      public void divide()
+      {
+      public void substration()
+
+
+       }
+
+
+}
+
+
+}
 }
