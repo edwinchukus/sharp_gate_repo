@@ -1,3 +1,5 @@
+#coding challenge begins
+
 # sharp_gate_repo
 Team first Git Remote Repository on the Csharp Project
 
@@ -24,3 +26,4 @@ any ideas?
 # Well, good.
 
 #12-05-2016: Added the Personal Project files back
+#file
