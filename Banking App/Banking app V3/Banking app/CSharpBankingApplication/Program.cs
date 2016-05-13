@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharpBankingApplication.BankLogin;
+using CSharpBankingApplication.Register;
 
 
 namespace CSharpBankingApplication
@@ -19,6 +20,11 @@ namespace CSharpBankingApplication
             Decision decision = new Decision();
             decision.MakeDecision();
             Console.ReadKey();
+            //Registration for new customer
+            Registration newUser = new Registration();
+            newUser.Rgister();
+            Registration userDetails = new Registration();
+            userDetails.EnterDetails();
         }
     }
 }
