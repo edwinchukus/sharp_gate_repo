@@ -89,8 +89,6 @@ namespace SeaSharkProject.basics
         {
             // Today's date as an example is 13-05-2016 
             string [] splittedDate = date.Split(',');
-
-
             string firtWord = splittedDate[0];
             Console.WriteLine(firtWord);
             Console.WriteLine(splittedDate[1]);
