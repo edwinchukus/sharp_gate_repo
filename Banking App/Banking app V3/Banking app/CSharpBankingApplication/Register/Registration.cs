@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharpBankingApplication.BankLogin;
 
-namespace CSharpBankingApplication.BankLogin
+namespace CSharpBankingApplication.Register
 {
      public class Registration
     {
