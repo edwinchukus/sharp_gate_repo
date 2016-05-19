@@ -14,14 +14,15 @@ namespace SeaSharkProject.basics
     /// </summary>
     public class Friday
     {
-        
-        
+        private int _has;
+
+
         /// <summary>
         /// This one take no argument
         /// </summary>
         public Friday()
         {
-            
+            this._has = 1250;
         }
         
         
@@ -30,12 +31,12 @@ namespace SeaSharkProject.basics
         /// </summary>
         public Friday(int myPin)
         {
-            
+            _has = myPin;
         }
 
 
         /// <summary>
-        /// This is a method that takes in any new student name and greet the student!
+        /// Message
         /// </summary>
         /// <param name="newStudentName"></param>
         /// <returns></returns>
@@ -85,21 +86,15 @@ namespace SeaSharkProject.basics
         }
 
 
-        public void GetNewStudentDate(string date)
-        {
-            // Today's date as an example is 13-05-2016 
-            string [] splittedDate = date.Split(',');
-            string firtWord = splittedDate[0];
-            Console.WriteLine(firtWord);
-            Console.WriteLine(splittedDate[1]);
-            Console.WriteLine(splittedDate[2]);
-            Console.WriteLine(splittedDate[3]);
-        }
 
 
+        /// <summary>
+        /// This method grab the 
+        /// </summary>
         public void GetAndre()
         {
-            Console.WriteLine("There is no name");
+            Console.WriteLine("Andre Iniesta");
+            Console.WriteLine(_has);
         }
 
 
@@ -107,7 +102,7 @@ namespace SeaSharkProject.basics
 
 
         /// <summary>
-        /// 
+        /// This 
         /// </summary>
         /// <param name="name"></param>
         public void GetAndre(string name)
@@ -121,5 +116,14 @@ namespace SeaSharkProject.basics
             Console.WriteLine("There is firstname " + firstname + " and last name "+lastname);
         }
 
+
+        /// <summary>
+        /// This method takes no argument but returns today's date
+        /// </summary>
+        public void GeDate()
+        {
+
+            Console.WriteLine("Tested and worked properly");
+        }
     }
 }
