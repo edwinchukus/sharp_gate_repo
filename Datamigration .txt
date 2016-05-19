@@ -1,0 +1,8 @@
+there was a bug at costs edition when the locale defined at browser was "ES" (spanish) (thanks to Juan Otth).
+- there was a bug at costs form. When a costs contains a lot of installments, the filter used to hide costs "out of the range" was not working appropriately. The bug was fixed.
+- there was a bug at history forms (task, requests, risks, etc). The form was eventually showing a 'Err' content. The bug was fixed.
+- there was a bug at meta field of cost form. The mandatory attribution was not considered by system. The bug was fixed.
+- there was a bug at Calendar Gadget when a event was created using specific locales. The bug was fixed.
+- bug fix at project saving feature. The meta-feld with and without qualifier status was not persited appropriately.
+9c72ebac2
+- Might as well add something to it as well (Andre)
