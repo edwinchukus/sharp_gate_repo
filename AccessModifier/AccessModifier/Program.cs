@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AccessModifier
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            PublicClass publicClass =new PublicClass();
+            publicClass.PublicTest();
+
+            ProtectedClass protectedClass = new ProtectedClass();
+            protectedClass.Test2();
+        }
+    }
+}
