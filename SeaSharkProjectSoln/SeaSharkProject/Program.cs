@@ -6,6 +6,7 @@ using SeaSharkProject.basics;
 using SeaSharkProject.calf;
 using SeaSharkProject.facebook;
 using SeaSharkProject.gettersAndSetters;
+using SeaSharkProject.Property;
 
 namespace SeaSharkProject
 {
@@ -13,33 +14,14 @@ namespace SeaSharkProject
     {
         public static void Main(string[] args)
         {
-            Eagle eagle = new Eagle();
 
-            //            Console.WriteLine(eagle.eagleName);
-            //
-            //            eagle.eagleName = "Black Eagle";
-            //            Console.WriteLine(eagle.eagleName);
+            Laptop mac = new Laptop();
+            Console.WriteLine(mac.LaptopName);
+            mac.LaptopName = "Dell Latitude 5201";
+            Console.WriteLine(mac.LaptopName);
 
-            string name = eagle.GetEagleName();
-            Console.WriteLine(name);
-            eagle.SetHasWings(false);
-
-
-            eagle.SetEagleName("Black Eagle");
-
-
-            string name1 = eagle.GetEagleName();
-            Console.WriteLine(name1);
-
-            eagle.Fly();
-
-            // Object Oriented Programming Langauge 
-            // Encapsulation
-            // Inheritance
-            // Polymorphism
-
-
-
+            Console.WriteLine(mac.Amount = 52.0);
+            Console.WriteLine(mac.Amount);
         }
 
 

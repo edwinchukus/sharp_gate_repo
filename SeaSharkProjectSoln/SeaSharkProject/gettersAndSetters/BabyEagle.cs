@@ -10,7 +10,7 @@ namespace SeaSharkProject.gettersAndSetters
 
         public void PrintEagleName()
         {
-            Console.WriteLine(eagleName);
+            Console.WriteLine();
             Console.WriteLine();
         }
 
