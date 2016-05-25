@@ -1,9 +1,11 @@
-﻿using System;
+﻿
+using System;
 using System.Runtime.InteropServices;
 using SeaLionProject.fish;
 using SeaSharkProject.access_modifiers;
 using SeaSharkProject.basics;
 using SeaSharkProject.calf;
+using SeaSharkProject.concepts;
 using SeaSharkProject.facebook;
 using SeaSharkProject.gettersAndSetters;
 using SeaSharkProject.Property;
@@ -14,14 +16,22 @@ namespace SeaSharkProject
     {
         public static void Main(string[] args)
         {
+            int ans = 0;
 
-            Laptop mac = new Laptop();
-            Console.WriteLine(mac.LaptopName);
-            mac.LaptopName = "Dell Latitude 5201";
-            Console.WriteLine(mac.LaptopName);
+            Console.WriteLine("Enter a number");
+            string num = Console.ReadLine();
 
-            Console.WriteLine(mac.Amount = 52.0);
-            Console.WriteLine(mac.Amount);
+            Fish fish = new Fish();
+
+
+     
+
+            fish.ComputeAmount(num, ans); 
+
+
+
+
+
         }
 
 

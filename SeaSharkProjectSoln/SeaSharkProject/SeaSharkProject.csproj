@@ -46,11 +46,13 @@
     <Compile Include="basics\Friday.cs" />
     <Compile Include="calf\CalfRunner.cs" />
     <Compile Include="calf\LogicOperation.cs" />
+    <Compile Include="concepts\Fish.cs" />
     <Compile Include="facebook\Elephant.cs" />
     <Compile Include="gettersAndSetters\BabyEagle.cs" />
     <Compile Include="gettersAndSetters\Eagle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property\BankAccount.cs" />
     <Compile Include="Property\Laptop.cs" />
     <Compile Include="test_folder\Wallpaper.cs" />
   </ItemGroup>
@@ -60,7 +62,9 @@
       <Name>SeaLionProject</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="one_arrays\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

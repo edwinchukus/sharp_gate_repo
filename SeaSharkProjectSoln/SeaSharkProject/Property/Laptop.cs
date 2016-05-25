@@ -7,7 +7,43 @@ namespace SeaSharkProject.Property
 {
     public class Laptop
     {
+        private int _age;
+        private string _colour;
+        
 
+
+        public int Age
+        {
+            get
+            {
+                if (_age >= 1)
+                {
+                   _age = 12 + _age;
+                }
+                return _age;
+            }
+            private set { _age = value; }
+        }
+
+        public int I { get; private set; }
+
+        public void ComputeAge()
+        {
+            Age = 25;
+        }
+
+        
+
+        public string GetLaptopColour()
+        {
+            return _colour;
+        }
+
+
+        private void SetLaptopColour(string colour)
+        {
+            this._colour = colour;
+        }
 
 
         public string LaptopName { get; set; }
@@ -15,32 +51,8 @@ namespace SeaSharkProject.Property
         public int NumberOfBattery { get; set; }
         public bool IsCharged { get; set; }
 
-//        private string _laptopName;
-//        private double _amount;
-//        private int _numberOfBattery;
-//        private bool _isCharged;
-//
-//        public void SetLaptopName(string laptopName)
-//        {
-//            this._laptopName = laptopName;
-//        }
-//
-//        public string GetLaptopName()
-//        {
-//            return _laptopName;
-//        }
-//
-//        public string LaptopName
-//        {
-//            get { return _laptopName; }
-//            set { _laptopName = value; }
-//        }
-
-        
 
 
-
-        
 
     }
 }
