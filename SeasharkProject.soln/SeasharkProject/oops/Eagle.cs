@@ -9,15 +9,15 @@ namespace SeasharkProject.oops
     public class Eagle
     {
 
-        public string eagleName = "White eagle";
-        public int eagleWeight = 6;
-        public bool hasWings = true;
-        public double eagleYears = 200;
+        protected string eagleName = "White eagle";
+        private int eagleWeight = 6;
+        private bool hasWings = true;
+        private double eagleYears = 200;
 
 
         public void Fly()
         {
-            Console.WriteLine("yes am an eagle, the king bird");   
+            Console.WriteLine("yes am an eagle, the king of bird");   
         }
 
 
