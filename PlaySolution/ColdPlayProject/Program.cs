@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
-using System.Text;
-using ColdPlayProject.arrays;
+using ColdPlayProject.one_dim_arrays;
+using ColdPlayProject.two_dim_arrays;
 
 namespace ColdPlayProject
 {
@@ -11,11 +8,9 @@ namespace ColdPlayProject
     {
         public static void Main(string[] args)
         {
-            // Int, string, double, float
-            ArrayConcept ac = new ArrayConcept();
-            ac.GetWeekNames();
 
-
+            Students tutorial = new Students();
+            tutorial.GetStudent();
 
         }
     }

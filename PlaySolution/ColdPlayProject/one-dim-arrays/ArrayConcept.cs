@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace ColdPlayProject.arrays
 {
@@ -9,26 +6,36 @@ namespace ColdPlayProject.arrays
     {
 
 
-        public object[] GetData()
+        private object[,] GetData()
         {
-            object[] myData = new object[4];
-            myData[0] = "Edwin Nwofor";
-            myData[1] = 15;
-            myData[2] = true;
-            myData[4] = 25000.25;
+            object[,] myData = new object[4,2];
+            myData[0, 0] = "Edwin Nwofor";
+            myData[0, 1] = 15;
+            myData[1, 0] = true;
+            myData[1, 1] = 25000.25;
             return myData;
         }
 
 
         public void GetEdwinData()
         {
-            object[] edwinData = GetData();
-            string name = (string)edwinData[0];
+            object[,] edwinData = GetData();
+            foreach (var data in edwinData)
+            {
+                Console.WriteLine(data);   
+            }
         }
 
         public void DecideDaysName()
         {
-            string[] w = GetWeekNames();
+            string[] ws = GetWeekNames();
+            foreach (var w in ws)
+            {
+                if (w.Contains("Sunday"))
+                {
+                    Console.WriteLine("Doing the programming all by myself");
+                }
+            }
         }
 
         public string[] GetWeekNames()
@@ -48,10 +55,11 @@ namespace ColdPlayProject.arrays
         public void GeStudentWithForEachLoopConcept()
         {
             int[] studentAges = new int[6];
+
             studentAges[0] = 26;
             studentAges[1] = 32;
             studentAges[2] = 29;
-            studentAges[3] = 56;
+            studentAges[3] = 34;
             studentAges[4] = 16;
             studentAges[5] = 38;
 
@@ -92,6 +100,7 @@ namespace ColdPlayProject.arrays
         public void LearnArrays()
         {
             // Declaring arrays
+
             //1
             int[] studentAges = new int[6];
             studentAges[0] = 26;
@@ -103,7 +112,7 @@ namespace ColdPlayProject.arrays
             //2
             int[] childrenAges = new int[4] {3, 1, 80, 25};
             //3
-            string[] childrenNames = new string[] {"AAA0001", "AAA0002", "AAA0003", "AAA0004"};
+            string[] childrenNames = new string[] {"A000502", "A000509", "A000503", "AAA000407"};
             //4
             string[] foods = {"Egbusi Soup", "Akpu", "Pounded Yam", "Fufu"};
 
