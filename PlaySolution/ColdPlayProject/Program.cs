@@ -1,4 +1,5 @@
 ﻿using System;
+using ColdPlayProject.list_in_csharp;
 using ColdPlayProject.one_dim_arrays;
 using ColdPlayProject.two_dim_arrays;
 
@@ -9,9 +10,15 @@ namespace ColdPlayProject
         public static void Main(string[] args)
         {
 
-            Students tutorial = new Students();
-            tutorial.GetStudent();
-
+            HouseHold houseHoldItem = new HouseHold();
+            houseHoldItem.MakeToy();
         }
     }
 }
+
+
+// OOP
+//Encapsulation
+//Inheritance
+//Polymorphism
+//Abstract

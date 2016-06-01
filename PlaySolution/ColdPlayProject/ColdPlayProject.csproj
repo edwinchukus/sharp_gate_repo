@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="list-in-csharp\HouseHold.cs" />
+    <Compile Include="list-in-csharp\Toys.cs" />
     <Compile Include="one-dim-arrays\ArrayConcept.cs" />
     <Compile Include="one-dim-arrays\Library.cs" />
     <Compile Include="one-dim-arrays\Products.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="two-dim-arrays\ShoppingMall.cs" />
     <Compile Include="two-dim-arrays\Students.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
