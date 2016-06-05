@@ -1,47 +1,40 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿
+using System;
+using System.Runtime.InteropServices;
+using SeaLionProject.fish;
+using SeaSharkProject.access_modifiers;
+using SeaSharkProject.basics;
 using SeaSharkProject.calf;
+using SeaSharkProject.concepts;
+using SeaSharkProject.facebook;
+using SeaSharkProject.gettersAndSetters;
+using SeaSharkProject.Property;
 
 namespace SeaSharkProject
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter your first number?");
-            string number1  = Console.ReadLine();
-            double num1 = Double.Parse(number1);
+            int ans = 0;
 
-            Console.WriteLine("please select what you would llike to do?");
-            Console.WriteLine("please select +, -,/");
-            string operatorInCal = Console.ReadLine();
-           
+            Console.WriteLine("Enter a number");
+            string num = Console.ReadLine();
 
-            Console.WriteLine("Please enter your second number?");
-            string number2 = Console.ReadLine();
-            double num2 = Double.Parse(number2);
+            Fish fish = new Fish();
 
-            LogicOperation casio = new LogicOperation(num1, num2); //Construction or Instantiation of a class
 
-   
+     
 
-            if (operatorInCal.Equals("+"))
-            {
-                double an = casio.Add();
-                Console.WriteLine(an);
-            }else if (operatorInCal.Equals("/"))
-            {
-                double an = casio.Divide();
-                Console.WriteLine(an);
-            }
-            else
-            {
-                throw new Exception("There is no such operation in this software!");
-            }
+            fish.ComputeAmount(num, ans); 
+
+
+
 
 
         }
+
+
+        
     }
 }

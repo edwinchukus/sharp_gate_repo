@@ -41,9 +41,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="access_modifiers\Hop.cs" />
+    <Compile Include="access_modifiers\Swim.cs" />
+    <Compile Include="basics\Friday.cs" />
+    <Compile Include="calf\CalfRunner.cs" />
     <Compile Include="calf\LogicOperation.cs" />
+    <Compile Include="concepts\Fish.cs" />
+    <Compile Include="facebook\Elephant.cs" />
+    <Compile Include="gettersAndSetters\BabyEagle.cs" />
+    <Compile Include="gettersAndSetters\Eagle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property\BankAccount.cs" />
+    <Compile Include="Property\Laptop.cs" />
+    <Compile Include="test_folder\Wallpaper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SeaLionProject\SeaLionProject.csproj">
+      <Project>{87c5c9cd-945a-42c7-becc-a2f1d3c8d765}</Project>
+      <Name>SeaLionProject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="one_arrays\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
