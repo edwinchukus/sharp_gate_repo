@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SeasharkProject.oops
+namespace seaShark
 {
-    class Fish
+    class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
