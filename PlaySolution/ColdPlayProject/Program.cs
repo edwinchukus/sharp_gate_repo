@@ -1,4 +1,5 @@
 ﻿using System;
+using ColdPlayProject.inheritance;
 using ColdPlayProject.list_in_csharp;
 using ColdPlayProject.one_dim_arrays;
 using ColdPlayProject.two_dim_arrays;
@@ -9,16 +10,16 @@ namespace ColdPlayProject
     {
         public static void Main(string[] args)
         {
-
-            HouseHold houseHoldItem = new HouseHold();
-            houseHoldItem.MakeToy();
+            Son son = new Son();
+            son.MakePhoneCalls();
         }
     }
 }
 
 
-// OOP
-//Encapsulation
-//Inheritance
-//Polymorphism
-//Abstract
+// = Object Oriented Programming = 
+        //Encapsulation
+        //Inheritance
+        //Polymorphism
+        //Abstract
+        //Interface

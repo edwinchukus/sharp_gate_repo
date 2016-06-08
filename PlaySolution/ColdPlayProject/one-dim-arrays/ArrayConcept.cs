@@ -110,7 +110,7 @@ namespace ColdPlayProject.arrays
             studentAges[4] = 45;
             studentAges[5] = 38;
             //2
-            int[] childrenAges = new int[4] {3, 1, 80, 25};
+            int[] childrenAges = new int[4] {3, 12, 80, 25};
             //3
             string[] childrenNames = new string[] {"A000502", "A000509", "A000503", "AAA000407"};
             //4

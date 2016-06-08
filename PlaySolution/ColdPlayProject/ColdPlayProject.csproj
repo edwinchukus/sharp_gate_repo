@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="encapsulation\Car.cs" />
+    <Compile Include="encapsulation\PajeroJeep.cs" />
+    <Compile Include="inheritance\CurrentStudent.cs" />
+    <Compile Include="inheritance\Father.cs" />
+    <Compile Include="inheritance\PostGraduateStudent.cs" />
+    <Compile Include="inheritance\ProspectiveStudent.cs" />
+    <Compile Include="inheritance\Son.cs" />
+    <Compile Include="inheritance\Wife.cs" />
     <Compile Include="list-in-csharp\HouseHold.cs" />
     <Compile Include="list-in-csharp\Toys.cs" />
     <Compile Include="one-dim-arrays\ArrayConcept.cs" />
@@ -51,6 +59,7 @@
     <Compile Include="two-dim-arrays\ShoppingMall.cs" />
     <Compile Include="two-dim-arrays\Students.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
