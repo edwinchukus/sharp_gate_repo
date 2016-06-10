@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ColdPlayProject.inheritance
 {
-    class WebDriver
+    public class WebDriver
     {
     }
 }
