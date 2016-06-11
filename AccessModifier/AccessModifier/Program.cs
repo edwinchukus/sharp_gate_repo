@@ -12,8 +12,15 @@ namespace AccessModifier
         {
             PublicClass publicClass =new PublicClass();
             publicClass.PublicTest();
-
-            ProtectedClass protectedClass = new ProtectedClass();
+            public int MyProperty 
+        {
+            private double InitialAmount;
+        {
+        public double InitialAmount
+        }
+            se
+        }
+        ProtectedClass protectedClass = new ProtectedClass();
             protectedClass.Test2();
         }
     }

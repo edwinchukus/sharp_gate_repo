@@ -13,8 +13,9 @@ namespace SeaSharkProject.gettersAndSetters
         private double eagleWieght = 5.00;
         private bool hasWings = true;
         private int numberOfEaglesEyes = 2;
-        private string name;
 
+      
+        // Getters and Setters
         public string GetEagleName()
         {
             return eagleName;
@@ -62,7 +63,15 @@ namespace SeaSharkProject.gettersAndSetters
 
         public void Fly()
         {
-            Console.WriteLine("Yes I am an eagle, the king of birds");
+
+            Console.WriteLine("The speed of the eagle is "+ CalculateSpeedOfFlight());
+        }
+
+
+        private int CalculateSpeedOfFlight()
+        {
+            int age = 5 + 10;
+            return age;
         }
 
 

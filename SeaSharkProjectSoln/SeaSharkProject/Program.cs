@@ -1,11 +1,14 @@
-﻿using System;
+﻿
+using System;
 using System.Runtime.InteropServices;
 using SeaLionProject.fish;
 using SeaSharkProject.access_modifiers;
 using SeaSharkProject.basics;
 using SeaSharkProject.calf;
+using SeaSharkProject.concepts;
 using SeaSharkProject.facebook;
 using SeaSharkProject.gettersAndSetters;
+using SeaSharkProject.Property;
 
 namespace SeaSharkProject
 {
@@ -13,30 +16,19 @@ namespace SeaSharkProject
     {
         public static void Main(string[] args)
         {
-            Eagle eagle = new Eagle();
+            int ans = 0;
 
-            //            Console.WriteLine(eagle.eagleName);
-            //
-            //            eagle.eagleName = "Black Eagle";
-            //            Console.WriteLine(eagle.eagleName);
+            Console.WriteLine("Enter a number");
+            string num = Console.ReadLine();
 
-            string name = eagle.GetEagleName();
-            Console.WriteLine(name);
-            eagle.SetHasWings(false);
+            Fish fish = new Fish();
 
 
-            eagle.SetEagleName("Black Eagle");
+     
+
+            fish.ComputeAmount(num, ans); 
 
 
-            string name1 = eagle.GetEagleName();
-            Console.WriteLine(name1);
-
-            eagle.Fly();
-
-            // Object Oriented Programming Langauge 
-            // Encapsulation
-            // Inheritance
-            // Polymorphism
 
 
 
