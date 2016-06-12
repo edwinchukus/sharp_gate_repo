@@ -1,24 +1,34 @@
 ﻿using System;
+using ColdPlayProject.inheritance;
 using ColdPlayProject.list_in_csharp;
 using ColdPlayProject.one_dim_arrays;
+using ColdPlayProject.polymorphism.overloadding;
+using ColdPlayProject.polymorphism.overriding;
 using ColdPlayProject.two_dim_arrays;
+using Father = ColdPlayProject.polymorphism.overriding.Father;
+using Son = ColdPlayProject.inheritance.Son;
+
 
 namespace ColdPlayProject
 {
-    class Program
+    public class Program
     {
         public static void Main(string[] args)
         {
 
-            HouseHold houseHoldItem = new HouseHold();
-            houseHoldItem.MakeToy();
+          Daughter daughter = new Daughter("Simon");
+
+            string name = daughter.FatherName;
+
+
         }
     }
 }
 
 
-// OOP
-//Encapsulation
-//Inheritance
-//Polymorphism
-//Abstract
+// = Object Oriented Programming = 
+        //Encapsulation
+        //Inheritance
+        //Polymorphism
+        //Abstract
+        //Interface
