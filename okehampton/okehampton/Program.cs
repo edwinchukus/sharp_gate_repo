@@ -10,6 +10,11 @@ namespace okehampton
     {
         static void Main(string[] args)
         {
+            Calculator casioCalculator= new Calculator();
+            casioCalculator.Add();
+            casioCalculator.Divide();
+            Console.WriteLine("ans for "  );
+            Console.ReadKey();
         }
     }
 }
