@@ -3,5 +3,10 @@ C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProje
 C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.exe
 C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.pdb
 C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.exe
+C:\C# AUTOMATION\Sam's Git\SeaSharkProjectSoln\SeaSharkProject\obj\Debug\SeaSharkProject.pdb
+=======
 C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaLionProject.dll
 C:\TrainCentre\TrainCentreForRepos\CSharp\Batch16A\sharp_gate_repo\SeaSharkProjectSoln\SeaSharkProject\bin\Debug\SeaLionProject.pdb
+>>>>>>> 2430487b8332ae90785125bc70ff99a908a98e6b

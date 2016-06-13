@@ -7,11 +7,26 @@ using System.Threading.Tasks;
 namespace okehampton
 {
    public class Calculator
-    {
-       public void Add()
+   {
+       private int _x = 4;
+       private int _y = 3;
+
+       public Calculator()
        {
-           string street = "harold";
-           int age = 69;
+           this._x = _x;
+           this._y = _y;
+
        }
+       public int Add()
+       {
+           int j = _x + _y;
+           return j;
+       }
+
+       public int Divide()
+       {
+           int j = -_x/_y;
+           return j;
+       } 
     }
 }
