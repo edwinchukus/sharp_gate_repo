@@ -16,7 +16,7 @@ namespace ColdPlayProject.polymorphism.overriding
 
         public override void ShowMeYourPhone(string phoneName)
         {
-            Console.WriteLine("This is phone - Daughter "+ phoneName);
+           base.ShowMeYourPhone(phoneName);
         }
 
 
