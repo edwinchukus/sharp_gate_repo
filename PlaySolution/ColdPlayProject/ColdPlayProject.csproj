@@ -51,6 +51,10 @@
     <Compile Include="inheritance\Son.cs" />
     <Compile Include="inheritance\WebDriver.cs" />
     <Compile Include="inheritance\Wife.cs" />
+    <Compile Include="interfaceNamespace\Car.cs" />
+    <Compile Include="interfaceNamespace\implementation\HondaCivic.cs" />
+    <Compile Include="interfaceNamespace\implementation\ToyotaCamry.cs" />
+    <Compile Include="interfaceNamespace\IVehicle.cs" />
     <Compile Include="list-in-csharp\HouseHold.cs" />
     <Compile Include="list-in-csharp\Toys.cs" />
     <Compile Include="one-dim-arrays\ArrayConcept.cs" />

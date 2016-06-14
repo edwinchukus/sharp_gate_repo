@@ -34,6 +34,9 @@ namespace ColdPlayProject.polymorphism.overloadding
             this._eagleAge = eagleAge;
         }
 
+     
+
+
         public void Fly(string eagleName, string wings)
         {
             Console.WriteLine("As an Eagle at 4years with 2 , I can fly at 5.00 speed/hour");
@@ -60,6 +63,12 @@ namespace ColdPlayProject.polymorphism.overloadding
         public void Fly(int noOfWings)
         {
             Console.WriteLine("As an Eagle at 4years with {0} wings, I can fly at 5.00 speed/hour", noOfWings);
+        }
+
+
+        public void Fly(int wings, string birdName,  double speed)
+        {
+            Console.WriteLine("As an {0} at 4years with {1} wings, I can fly at {2} speed/hour", birdName, wings, speed);
         }
 
         public void Fly(string birdName, int wings, double speed)
