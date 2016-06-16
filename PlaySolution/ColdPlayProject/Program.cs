@@ -1,15 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ColdPlayProject.inheritance;
-using ColdPlayProject.interfaceNamespace;
-using ColdPlayProject.interfaceNamespace.implementation;
-using ColdPlayProject.list_in_csharp;
-using ColdPlayProject.one_dim_arrays;
-using ColdPlayProject.polymorphism.overloadding;
-using ColdPlayProject.polymorphism.overriding;
-using ColdPlayProject.two_dim_arrays;
-using Father = ColdPlayProject.polymorphism.overriding.Father;
-using Son = ColdPlayProject.inheritance.Son;
+using System.Threading;
+using ColdPlayProject.abstractConcept;
+using ColdPlayProject.abstractConcept.domesticAnimal;
+using ColdPlayProject.exception_handling;
 
 
 namespace ColdPlayProject
@@ -18,24 +12,18 @@ namespace ColdPlayProject
     {
         public static void Main(string[] args)
         {
-                        HondaCivic hc = new HondaCivic();
-                        string n = hc.DisplayCarName("5241 Honda");
-                        Console.WriteLine(n);
-            
-                        ToyotaCamry camry = new ToyotaCamry();
-                        String nn = camry.DisplayCarName("TC");
-                        Console.WriteLine(nn);
+            Console.WriteLine("Please enter the first number: ");
+            string a1 = Console.ReadLine();
+            int a = int.Parse(a1);
 
-            ICar car = new HondaCivic();
-            bool h = car.HasStopped();
-            ICar car1 = new ToyotaCamry();
-            bool h1 = car1.HasStopped();
+            Console.WriteLine("Please enter the second number: ");
+            string a2 = Console.ReadLine();
+            int b = int.Parse(a2);
 
-            IVehicle veh = new HondaCivic();
-            veh.ShowVehicleName();
+            Calculator calc = new Calculator();
+            calc.DivideNumber(a, b);
 
-            List<int> n3 = new List<int>();
-
+            Thread.Sleep(1000);
         }
     }
 }
@@ -44,6 +32,6 @@ namespace ColdPlayProject
 // = Object Oriented Programming = 
         //Encapsulation
         //Inheritance
-        //Polymorphism
+        //Polymorphism - Overloading & Overriding
         //Abstract
-        //Interface
+        //Interface 

@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="abstractConcept\Animal.cs" />
+    <Compile Include="abstractConcept\domesticAnimal\Dog.cs" />
     <Compile Include="encapsulation\Car.cs" />
     <Compile Include="encapsulation\PajeroJeep.cs" />
+    <Compile Include="exception-handling\Calculator.cs" />
     <Compile Include="inheritance\ChromeDriver.cs" />
     <Compile Include="inheritance\CurrentStudent.cs" />
     <Compile Include="inheritance\Father.cs" />
@@ -69,7 +72,9 @@
     <Compile Include="two-dim-arrays\ShoppingMall.cs" />
     <Compile Include="two-dim-arrays\Students.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="question\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
