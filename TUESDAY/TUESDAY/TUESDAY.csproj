@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BFAB306-FCB7-4E34-9DA7-49B6BC74C4CF}</ProjectGuid>
+    <ProjectGuid>{5D9B9982-D344-4685-AF0B-616D726E8E29}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>polymorphism</RootNamespace>
-    <AssemblyName>polymorphism</AssemblyName>
+    <RootNamespace>TUESDAY</RootNamespace>
+    <AssemblyName>TUESDAY</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="eagle.cs" />
-    <Compile Include="interfaceNamesapce\Car.cs" />
-    <Compile Include="interfaceNamesapce\implementation\hondaCivic.cs" />
-    <Compile Include="interfaceNamesapce\implementation\ToyotaCamry.cs" />
+    <Compile Include="interfaceNameSpace\car.cs" />
+    <Compile Include="interfaceNameSpace\implimentation\hondacivic.cs" />
+    <Compile Include="interfaceNameSpace\implimentation\toyotaCamry.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="overloading\" />
-    <Folder Include="overriding\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
