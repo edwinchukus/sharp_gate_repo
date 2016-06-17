@@ -22,6 +22,12 @@ namespace shopping.Exceltion_Handling
                Console.WriteLine("An exception has occurred with details" + e.Message);
                throw new Exception("I am unable to divide a number with zero");
            }
+            finally
+           {
+               double an = b/a;
+               Console.WriteLine(an);
+
+           }
           
        }
     }
