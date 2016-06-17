@@ -8,12 +8,21 @@ namespace shopping.Exceltion_Handling
 {
    public class Calculator
     {
-
-
-       public double DivideNumber(int a, int b )
+       public void DivideNumber(int a, int b)
        {
-           double an = a/b;
-           return an;
+           try
+           {
+                double an = a / b;
+                Console.WriteLine(an);
+            }
+           catch (ArithmeticException e)
+           {
+
+               Console.WriteLine("An exception has occurred with details"+ e.StackTrace);
+               Console.WriteLine("An exception has occurred with details" + e.Message);
+               throw new Exception("I am unable to divide a number with zero");
+           }
+          
        }
     }
 }

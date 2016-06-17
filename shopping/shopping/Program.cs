@@ -20,8 +20,7 @@ namespace shopping
             int b = int.Parse(a2);
 
             Calculator  calc = new Calculator();
-            double answer = calc.DivideNumber(a, b);
-            Console.WriteLine(answer);
+           calc.DivideNumber(a,b);
 
 
         }
