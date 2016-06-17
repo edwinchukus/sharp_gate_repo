@@ -43,6 +43,10 @@
   <ItemGroup>
     <Compile Include="abstractConcept\Animal.cs" />
     <Compile Include="abstractConcept\domesticAnimal\Dog.cs" />
+    <Compile Include="area_of_emphasis\Arrays.cs" />
+    <Compile Include="area_of_emphasis\ClassRoom.cs" />
+    <Compile Include="area_of_emphasis\SchoolLibrary.cs" />
+    <Compile Include="area_of_emphasis\UniversityOfNewcastle.cs" />
     <Compile Include="encapsulation\Car.cs" />
     <Compile Include="encapsulation\PajeroJeep.cs" />
     <Compile Include="exception-handling\Calculator.cs" />

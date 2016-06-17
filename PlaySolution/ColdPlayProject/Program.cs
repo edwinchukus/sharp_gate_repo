@@ -1,9 +1,10 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.Remoting.Lifetime;
 using System.Threading;
-using ColdPlayProject.abstractConcept;
-using ColdPlayProject.abstractConcept.domesticAnimal;
-using ColdPlayProject.exception_handling;
+using ColdPlayProject.area_of_emphasis;
 
 
 namespace ColdPlayProject
@@ -12,26 +13,38 @@ namespace ColdPlayProject
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the first number: ");
-            string a1 = Console.ReadLine();
-            int a = int.Parse(a1);
+            Console.WriteLine("Please enter date of birth");
+            string dob = Console.ReadLine();
 
-            Console.WriteLine("Please enter the second number: ");
-            string a2 = Console.ReadLine();
-            int b = int.Parse(a2);
+            CasioCalculator calc = new CasioCalculator();
+            try
+            {
+                calc.Divide(dob, 0);
+            }
+            catch (Exception)
+            {
+                
+            }
 
-            Calculator calc = new Calculator();
-            calc.DivideNumber(a, b);
 
-            Thread.Sleep(1000);
+
+        }
+    }
+
+    public class CasioCalculator
+    {
+        public void Divide(string dob, int i)
+        {
+            try
+            {
+                Console.WriteLine(int.Parse(dob) / i);
+            }
+            catch (Exception exception)
+            {
+                throw new ArithmeticException(exception.Message);
+            }
         }
     }
 }
 
 
-// = Object Oriented Programming = 
-        //Encapsulation
-        //Inheritance
-        //Polymorphism - Overloading & Overriding
-        //Abstract
-        //Interface 
