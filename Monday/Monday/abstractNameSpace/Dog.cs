@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shopping
+namespace Monday.abstractNameSapec
 {
-    class shoppingMall
+    class Dog
     {
     }
 }
