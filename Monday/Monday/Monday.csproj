@@ -47,6 +47,9 @@
     <Compile Include="abstractNameSpace\animal.cs" />
     <Compile Include="abstractNameSpace\Dog.cs" />
     <Compile Include="abstractNameSpace\homeAnimal\dog.cs" />
+    <Compile Include="interfaceframe\implementation\truck.cs" />
+    <Compile Include="interfaceframe\Interface1.cs" />
+    <Compile Include="interfaceframe\vechiles.cs" />
     <Compile Include="interfaceNameSpace\Animal.cs" />
     <Compile Include="interfaceNameSpace\bird.cs" />
     <Compile Include="interfaceNameSpace\Implementation\sparot.cs" />
