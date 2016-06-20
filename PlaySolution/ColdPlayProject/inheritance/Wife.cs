@@ -5,7 +5,15 @@ using System.Text;
 
 namespace ColdPlayProject.inheritance
 {
-    public class Wife : Father
+    public class Wife
     {
+
+        public string BagBrand = "Gucci";
+        public void WifeBag()
+
+        {
+            Console.WriteLine("This red bag is" + BagBrand );
+        }
+
     }
 }
