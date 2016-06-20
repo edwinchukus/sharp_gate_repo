@@ -12,7 +12,7 @@ namespace ColdPlayProject.inheritance
         public void WifeBag()
 
         {
-            Console.WriteLine("This red bag is" + BagBrand );
+            Console.WriteLine("This bag is" + BagBrand );
         }
 
     }
