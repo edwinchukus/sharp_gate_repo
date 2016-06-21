@@ -52,6 +52,7 @@
     <Compile Include="exception-handling\Calculator.cs" />
     <Compile Include="inheritance\ChromeDriver.cs" />
     <Compile Include="inheritance\CurrentStudent.cs" />
+    <Compile Include="inheritance\Daughter.cs" />
     <Compile Include="inheritance\Father.cs" />
     <Compile Include="inheritance\PostGraduateStudent.cs" />
     <Compile Include="inheritance\ProspectiveStudent.cs" />
