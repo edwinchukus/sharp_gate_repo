@@ -11,10 +11,11 @@ namespace inhritance.inheritance
     {
         protected int _truckAge;
         protected string _truckName;
-        protected bool _isTrckNew;
+        protected bool _isTruckNew;
       protected double _sellingPrices;
 
       public string _truckname { get { return _truckName; } set { _truckName = value; } }
       public double _sellingPrice { get { return _sellingPrices; } set { _sellingPrices = value; } }
+      public bool _isTruckName { get {return _isTruckNew; } set { _isTruckNew = value; } }
     }
 }
