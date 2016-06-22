@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿
+using System;
+using System.Runtime.InteropServices;
+using SeaLionProject.fish;
+using SeaSharkProject.access_modifiers;
 using SeaSharkProject.basics;
 using SeaSharkProject.calf;
+using SeaSharkProject.concepts;
 using SeaSharkProject.facebook;
+using SeaSharkProject.gettersAndSetters;
+using SeaSharkProject.Property;
 
 namespace SeaSharkProject
 {
@@ -12,13 +16,22 @@ namespace SeaSharkProject
     {
         public static void Main(string[] args)
         {
-            //NCrunch 
-            Friday friday = new Friday(5321);
-            
-            friday.GetNewStudentDate("I am a boy, from Nigeria, and I am a grown up man now, I can make a decision.");
+            int ans = 0;
+
+            Console.WriteLine("Enter a number");
+            string num = Console.ReadLine();
+
+            Fish fish = new Fish();
 
 
-            friday.GetAndre();
+     
+
+            fish.ComputeAmount(num, ans); 
+
+
+
+
+
         }
 
 

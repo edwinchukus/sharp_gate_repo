@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7E02801-BCBE-4EC8-B055-9686C98DA75B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ColdPlayProject</RootNamespace>
+    <AssemblyName>ColdPlayProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abstractConcept\Animal.cs" />
+    <Compile Include="abstractConcept\domesticAnimal\Dog.cs" />
+    <Compile Include="area_of_emphasis\Arrays.cs" />
+    <Compile Include="area_of_emphasis\ClassRoom.cs" />
+    <Compile Include="area_of_emphasis\SchoolLibrary.cs" />
+    <Compile Include="area_of_emphasis\UniversityOfNewcastle.cs" />
+    <Compile Include="encapsulation\Car.cs" />
+    <Compile Include="encapsulation\PajeroJeep.cs" />
+    <Compile Include="exception-handling\Calculator.cs" />
+    <Compile Include="inheritance\ChromeDriver.cs" />
+    <Compile Include="inheritance\CurrentStudent.cs" />
+    <Compile Include="inheritance\Daughter.cs" />
+    <Compile Include="inheritance\Father.cs" />
+    <Compile Include="inheritance\PostGraduateStudent.cs" />
+    <Compile Include="inheritance\ProspectiveStudent.cs" />
+    <Compile Include="inheritance\Son.cs" />
+    <Compile Include="inheritance\WebDriver.cs" />
+    <Compile Include="inheritance\Wife.cs" />
+    <Compile Include="interfaceNamespace\Car.cs" />
+    <Compile Include="interfaceNamespace\implementation\HondaCivic.cs" />
+    <Compile Include="interfaceNamespace\implementation\ToyotaCamry.cs" />
+    <Compile Include="interfaceNamespace\IVehicle.cs" />
+    <Compile Include="list-in-csharp\HouseHold.cs" />
+    <Compile Include="list-in-csharp\Toys.cs" />
+    <Compile Include="one-dim-arrays\ArrayConcept.cs" />
+    <Compile Include="one-dim-arrays\Library.cs" />
+    <Compile Include="one-dim-arrays\Products.cs" />
+    <Compile Include="polymorphism\overloadding\Eagle.cs" />
+    <Compile Include="polymorphism\overriding\Daughter.cs" />
+    <Compile Include="polymorphism\overriding\Father.cs" />
+    <Compile Include="polymorphism\overriding\Son.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="two-dim-arrays\ShoppingMall.cs" />
+    <Compile Include="two-dim-arrays\Students.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="question\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
