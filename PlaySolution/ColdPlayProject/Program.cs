@@ -5,6 +5,8 @@ using System.Diagnostics;
 using System.Runtime.Remoting.Lifetime;
 using System.Threading;
 using ColdPlayProject.area_of_emphasis;
+using ColdPlayProject.modifierss;
+using ReviewProject.FirstReview;
 
 
 namespace ColdPlayProject
@@ -13,37 +15,21 @@ namespace ColdPlayProject
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter date of birth");
-            string dob = Console.ReadLine();
+            string myName = Console.ReadLine();
 
-            CasioCalculator calc = new CasioCalculator();
             try
             {
-                calc.Divide(dob, 0);
-            }
-            catch (Exception)
-            {
-                
-            }
 
-
-
-        }
-    }
-
-    public class CasioCalculator
-    {
-        public void Divide(string dob, int i)
-        {
-            try
-            {
-                Console.WriteLine(int.Parse(dob) / i);
             }
             catch (Exception exception)
             {
-                throw new ArithmeticException(exception.Message);
+                throw new Exception(exception.Message);
             }
+
         }
+   
+
+   
     }
 }
 
