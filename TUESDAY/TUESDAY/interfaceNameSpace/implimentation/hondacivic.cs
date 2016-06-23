@@ -28,5 +28,10 @@ namespace TUESDAY.interfaceNameSpace.implimentation
         {
             Console.WriteLine("yes the car is moving ");
         }
+
+        public double speed()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

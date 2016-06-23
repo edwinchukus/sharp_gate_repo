@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Monday.abstractNameSapec;
+using Monday.area_of_emphasis;
 
 namespace Monday
 {
@@ -11,9 +12,8 @@ namespace Monday
     {
        public static void Main(string[] args)
         {
-         Dog dog= new Dog ("Whisky", 5, true);
-           string name = dog.ShowAnimalName();
-           dog.Run();
+         schoolLibray sl =new schoolLibray();
+           sl.typeOfProficiency= "excellent libray";
 
         }
 
