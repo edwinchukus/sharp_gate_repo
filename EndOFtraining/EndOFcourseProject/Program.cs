@@ -12,7 +12,8 @@ namespace EndOFcourseProject
         static void Main(string[] args)
         {
             UniversityLibrary ulLibrary= new UniversityLibrary();
-            ulLibrary.bookTopic = "excellent coding";
+            string bookName = ulLibrary.GetBookTopic();
+            ulLibrary.setBookTopic("coding");
         }
     }
 }

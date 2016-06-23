@@ -9,8 +9,19 @@ namespace EndOFcourseProject.areaOFEmphasis
      public class UniversityLibrary
 
      {
-         public string bookTopic = "coding";
+         private string bookTopic = "coding";
+         
 
+
+         public string GetBookTopic()
+         {
+             return bookTopic;
+         }
+
+         public void setBookTopic(string ourbookTopic)
+         {
+             this.bookTopic = ourbookTopic;
+         }
          protected void IssueBook()
          {
 
