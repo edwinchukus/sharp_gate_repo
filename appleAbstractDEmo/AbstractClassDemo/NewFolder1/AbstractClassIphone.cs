@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_training
+namespace AbstractClassDemo.NewFolder1
 {
-    class Program
+    class AbstractClassIphone
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

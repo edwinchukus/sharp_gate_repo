@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace okehampton
+namespace AbstractClassDemo
 {
-    class square
+    class iphone5:iphone
     {
+        public void Call()
+
+        {
+            
+        }
+
     }
 }

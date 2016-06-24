@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AbstractClassDemo.NewFolder1;
 
-namespace okehampton
+namespace AbstractClassDemo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Calculator casioCalculator= new Calculator();
-            casioCalculator.Add();
-            casioCalculator.Divide();
-            Console.WriteLine("ans for "  );
+            //instanstiate iphone class error message occurred as expected
+            iphone5 iphone5= new iphone5();
+            iphone5.Call();
             Console.ReadKey();
         }
     }

@@ -13,16 +13,22 @@ namespace EndOFcourseProject.areaOFEmphasis
          
 
 
-         public string GetBookTopic()
-         {
-             return bookTopic;
+        public string GetBookTopic()
+        {
+            return bookTopic;
+        }
+
+     //    public void setBookTopic(string ourbookTopic)
+      //   {
+     //        this.bookTopic = ourbookTopic;
          }
 
-         public void setBookTopic(string ourbookTopic)
-         {
-             this.bookTopic = ourbookTopic;
-         }
-         protected void IssueBook()
+        internal void setBookTopic(string v)
+        {
+            throw new NotImplementedException();
+        }
+
+        protected void IssueBook()
          {
 
              Console.WriteLine("i am a post{0} graduate student and love coding{1} with my colleague");

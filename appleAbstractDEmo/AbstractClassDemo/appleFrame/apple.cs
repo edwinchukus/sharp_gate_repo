@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace trial
+namespace AbstractClassDemo.appleFrame
 {
-    class Program
+    class apple
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
