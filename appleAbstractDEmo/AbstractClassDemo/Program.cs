@@ -12,8 +12,9 @@ namespace AbstractClassDemo
         static void Main(string[] args)
         {
             //instanstiate iphone class error message occurred as expected
-            iphone5 iphone5= new iphone5();
-            iphone5.Call();
+            iphone5s iphone5s= new iphone5s();
+            iphone5s.Call();
+            iphone5s.LauchDate();
             Console.ReadKey();
         }
     }
