@@ -20,18 +20,20 @@ namespace ColdPlayProject
 
             Car car = new Car();
             
+            car.Colours = Car.CarColours.OrangeCar;
 
             if (car.Colours == Car.CarColours.WhiteCar)
             {
                 Console.WriteLine("You bought an orange car");
-            }else if (car.Colours == Car.CarColours.black)
+                car.Make = Car.CarMake.Toyoto;
+            }else if (car.Colours == Car.CarColours.BlackCar)
             {
                 Console.WriteLine("You bought an Black car");
-                car.Colours = Car.CarColours.blue;
+                car.Colours = Car.CarColours.BlueCar;
             }else if (car.Colours == Car.CarColours.WhiteCar)
             {
                 Console.WriteLine("You bought an white car");
-            }else if (car.Colours == Car.CarColours.blue)
+            }else if (car.Colours == Car.CarColours.BlueCar)
             {
                 Console.WriteLine("You bought an blue car");
             }

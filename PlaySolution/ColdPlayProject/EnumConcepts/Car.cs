@@ -9,15 +9,23 @@ namespace ColdPlayProject.EnumConcepts
 
     public class Car
     {
-        public CarColours Colours { get; set; } = CarColours.black;
-
+        public CarColours Colours { get; set; } = CarColours.BlackCar;
+        public CarMake Make { get; set; } = CarMake.Toyoto;
 
         public enum CarColours
         {
-            WhiteCar,
-            blue ,
-            black ,
-            orange 
+            WhiteCar = 1,
+            BlueCar,
+            BlackCar,
+            OrangeCar 
+        }
+
+
+        public enum CarMake
+        {
+            Volvo,
+            Toyoto,
+            Mazda
         }
     }
 }

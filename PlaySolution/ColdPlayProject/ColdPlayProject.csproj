@@ -81,9 +81,7 @@
     <Compile Include="two-dim-arrays\ShoppingMall.cs" />
     <Compile Include="two-dim-arrays\Students.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="question\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ReviewProject\ReviewProject.csproj">
       <Project>{cb14ce50-450d-4a8e-944c-363597f9b060}</Project>
