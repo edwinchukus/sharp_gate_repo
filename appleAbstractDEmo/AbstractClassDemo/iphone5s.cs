@@ -18,5 +18,10 @@ namespace AbstractClassDemo
             Console.WriteLine("the launch date was september 2013");
         }
 
+        public void Call()
+        {
+            
+        }
+
     }
 }
