@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54C34FC3-E52E-40D8-A8C5-7F6376B470A0}</ProjectGuid>
+    <ProjectGuid>{D355C7F2-E529-40A5-BDCB-1DCEAF55A480}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AbstractClassDemo</RootNamespace>
-    <AssemblyName>AbstractClassDemo</AssemblyName>
+    <RootNamespace>interfaceDEmo</RootNamespace>
+    <AssemblyName>interfaceDEmo</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,19 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="iphone.cs" />
-    <Compile Include="iphone5.cs" />
-    <Compile Include="iphone5s.cs" />
-    <Compile Include="NewFolder1\AbstractClassIphone.cs" />
+    <Compile Include="Apple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmartphoneDEmo.cs" />
+    <Compile Include="SmartPhone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="interfaceDemo\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
