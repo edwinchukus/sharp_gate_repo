@@ -48,8 +48,10 @@
     <Compile Include="area_of_emphasis\ClassRoom.cs" />
     <Compile Include="area_of_emphasis\SchoolLibrary.cs" />
     <Compile Include="area_of_emphasis\UniversityOfNewcastle.cs" />
+    <Compile Include="ClassA.cs" />
     <Compile Include="encapsulation\Car.cs" />
     <Compile Include="encapsulation\PajeroJeep.cs" />
+    <Compile Include="EnumConcepts\Car.cs" />
     <Compile Include="exception-handling\Calculator.cs" />
     <Compile Include="inheritance\ChromeDriver.cs" />
     <Compile Include="inheritance\CurrentStudent.cs" />
@@ -79,13 +81,15 @@
     <Compile Include="two-dim-arrays\ShoppingMall.cs" />
     <Compile Include="two-dim-arrays\Students.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="question\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ReviewProject\ReviewProject.csproj">
       <Project>{cb14ce50-450d-4a8e-944c-363597f9b060}</Project>
       <Name>ReviewProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReviewTwo\ReviewTwo.csproj">
+      <Project>{d92e1b55-8414-4a2a-8ef8-3de6e44c6105}</Project>
+      <Name>ReviewTwo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
