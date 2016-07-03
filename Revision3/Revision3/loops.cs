@@ -7,15 +7,32 @@ using System.Threading.Tasks;
 
 namespace Revision3
 {
-     public class loops
+    public class loops
     {
-        public void GetProductName()
+        public bool FindProduct(string ProductName)
         {
-           IList<string> itemNames= new List<string>() {"spring water", "bread","nokia phone ","honey" };
+            IList<string> itemNames = new List<string>()
+            {
+                "spring water",
+                "bread",
+                "nokia phone ",
+                "honey",
+                "coke",
+                "red wine"
+            };
+            bool result = false;
             foreach (var itemName in itemNames)
             {
-                Console.WriteLine(itemName);
+                if (ProductName.Contains(itemName))
+                {
+                    result = true;
+                    break;
+                }
+                return result;
             }
+
+
         }
     }
 }
+
