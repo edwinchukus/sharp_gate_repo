@@ -18,7 +18,7 @@ namespace ThirdSeleniumProject.seleniumConcept
         {
            _driver= new ChromeDriver(); 
             _driver.Manage().Window.Maximize();
-            _driver.Navigate().GoToUrl("http://www.tesco.com");
+            _driver.Navigate().GoToUrl("http://www.asda.com");
             IList<Cookie> cocky = _driver.Manage().Cookies.AllCookies;
            
             {
